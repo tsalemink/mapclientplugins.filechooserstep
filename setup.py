@@ -41,7 +41,7 @@ source_license = readfile("LICENSE")
 
 setup(
     name='mapclientplugins.filechooserstep',
-    version=find_version('mapclientplugins', 'dictserializerstep', '__init__.py'),
+    version=find_version('mapclientplugins', 'filechooserstep', '__init__.py'),
     description='',
     long_description='\n'.join(readme) + source_license,
     long_description_content_type='text/x-rst',
