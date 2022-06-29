@@ -54,7 +54,7 @@ class Ui_ConfigureDialog(object):
         QtCore.QMetaObject.connectSlotsByName(ConfigureDialog)
 
     def retranslateUi(self, ConfigureDialog):
-        ConfigureDialog.setWindowTitle(QtWidgets.QApplication.translate("ConfigureDialog", "ConfigureDialog", None, -1))
+        ConfigureDialog.setWindowTitle(QtWidgets.QApplication.translate("ConfigureDialog", "Configure File Chooser", None, -1))
         self.label0.setText(QtWidgets.QApplication.translate("ConfigureDialog", "identifier:  ", None, -1))
         self.pushButtonFileChooser.setText(QtWidgets.QApplication.translate("ConfigureDialog", "...", None, -1))
         self.label1.setText(QtWidgets.QApplication.translate("ConfigureDialog", "File:  ", None, -1))
